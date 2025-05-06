@@ -31,14 +31,14 @@ Estimer numériquement le prix d’une option asiatique dans un marché sans arb
 ##  Structure
 
 - `README.md` : Ce fichier
-- `option_asian_pricing.ipynb` : Notebook principal avec le code et les résultats
+- `option_asiatique_pricer.ipynb` : Notebook principal avec le code et les résultats
 
 ## Equations
 
-- **Prix du sous-jacent** : $S_t = S_0 e^{(r - \frac{\sigma^2}{2})t + \sigma W(t)}$
-- **Payoff du call asiatique à moyenne arithmétique type Average Price** : $C = \max\left(\frac{1}{n} \sum_{i=1}^n S_{t_i} - K, 0\right)$
-- **Payoff du call asiatique à moyenne arithmétique type Average Strike** : $C = \max\left(S_{T} - \frac{1}{n} \sum_{i=1}^n S_{t_i}, 0\right)$
-- **Prix de l'option asiatique type Average Price** : $V = e^{-rT} \mathbb{E}\left[\max\left(\frac{1}{n} \sum_{i=1}^n S_{t_i} - K, 0\right)\right]$
+- **Prix du sous-jacent** : $$S_t = S_0 e^{(r - \frac{\sigma^2}{2})t + \sigma W(t)}$$
+- **Payoff du call asiatique à moyenne arithmétique type Average Price** : $$C = \max\left(\frac{1}{n} \sum_{i=1}^n S_{t_i} - K, 0\right)$$
+- **Payoff du call asiatique à moyenne arithmétique type Average Strike** : $$C = \max\left(S_{T} - \frac{1}{n} \sum_{i=1}^n S_{t_i}, 0\right)$$
+- **Prix de l'option asiatique type Average Price** : $$V = e^{-rT} \mathbb{E}\left[\max\left(\frac{1}{n} \sum_{i=1}^n S_{t_i} - K, 0\right)\right]$$
 
 ## Graphiques
 
