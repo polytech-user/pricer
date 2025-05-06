@@ -1,0 +1,14 @@
+# Ignore tout
+*
+
+# Puis exclus (garde) les fichiers spécifiques
+!option_asiatique_pricer.ipynb
+!README.md
+!images/
+
+# Pour garder le contenu du dossier, on exclut le dossier lui-même
+!images/*
+
+
+# Pour garder le .gitignore lui-même
+!.gitignore
